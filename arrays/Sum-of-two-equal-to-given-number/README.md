@@ -16,6 +16,6 @@ checkSum([2, 8, 9, 12, 45, 78], 1) ➞ false
 
 ## Notes
 
-## N/A
+N/A
 
 Credits: user Jass on edabit.com
