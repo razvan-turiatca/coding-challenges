@@ -1,8 +1,10 @@
-//My solution
+//My solution using regex
 
 function findNaN(number) {
   return number.findIndex((num) => isNaN(num))
 }
+
+// ------------------------------------------------------------
 
 console.log(findNaN([1, 2, NaN]))
 
