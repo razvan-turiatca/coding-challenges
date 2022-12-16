@@ -2,8 +2,8 @@
 
 function amplify(num) {
   return Array(num)
-    .fill(0)
-    .map((num, i) => ((num + i + 1) % 4 == 0 ? (i + 1) * 10 : i + 1))
+    .fill(1)
+    .map((num, i) => ((num + i) % 4 ? num + i : (num + i) * 10))
 }
 
 // other solutions from other users
