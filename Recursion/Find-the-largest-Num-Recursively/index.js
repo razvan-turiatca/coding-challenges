@@ -11,7 +11,7 @@ function largestEven(nums, maxNum = 0) {
   }
 }
 
-// other solution
+// non-recursive solution
 
 function largestEven(nums) {
   return Math.max(...nums.filter((num) => num % 2 == 0), -1)
