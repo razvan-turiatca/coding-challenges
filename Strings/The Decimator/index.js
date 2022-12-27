@@ -12,3 +12,4 @@ function DECIMATOR(str) {
 function DECIMATOR(str) {
   return str.slice(0, str.length - Math.ceil(str.length / 10))
 }
+
