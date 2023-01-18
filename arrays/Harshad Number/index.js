@@ -10,3 +10,4 @@ function isHarshad(n) {
     0
   )
 }
+
